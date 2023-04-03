@@ -10,10 +10,9 @@
 <body>
     <div class="wrapper">
         <div class="sidebar">
-            <div>Pic</div>
-            <div>Logo</div>
+            <div id="logo">Logoipsum</div>
             <div class="menu">
-                <ul class="List1">
+                <ul class="list1">
                     <li>Overview</li>
                     <li>Tickets</li>
                     <li>ideas</li>
@@ -21,7 +20,7 @@
                     <li>Agents</li>
                     <li>Articles</li>
                 </ul>
-                <ul class="List2">
+                <ul class="list2">
                     <li>Settings</li>
                     <li>Subscription</li>
                 </ul>
@@ -29,43 +28,71 @@
         </div>
         <div class="container">
             <div class="header">
-                <div>Overview</div>
-                <div>Search</div>
-                <div>Notifications</div>
-                <div>|</div>
-                <div>User Name</div>
-                <div>Profile Pic</div>
+                <div id="overview">Overview</div>
+                <div id="search">Search</div>
+                <div id="notifications">Notifications</div>
+                <div id="|">|</div>
+                <div id="user">User Name</div>
+                <div id="profile">Profile Pic</div>
             </div>
             <div class="top">
-                <div>Open</div>
-                <div>Unresolved</div>
-                <div>On hold</div>
-                <div>Overdue</div>
+                <div class="card">
+                    <div class="light">Open</div>
+                    <div class="number">21</div> 
+                </div>
+                <div class="card">
+                    <div class="light">Unresolved</div>
+                    <div class="number">43</div>  
+                </div>
+                <div class="card">
+                    <div class="light">On hold</div>
+                    <div class="number">35</div> 
+                </div>
+                <div class="card">
+                    <div class="light">Overdue</div>
+                    <div class="number">16</div> 
+                </div>
             </div>
-            <div class="middle">
-                <div>Today's trends</div>
-                <div>Resolved</div>
-                <div>Received</div>
-                <div>Average response time</div>
-                <div>Resolution within SLA</div>
+            <div class="middle"> 
+                <div class="trends">
+                    <img class="graph" src="svg-chart (1).svg" alt="svg chart">
+                </div>
+                <div class="data">
+                    <div class="cell" id="resolved">
+                        <div class="light">Resolved</div>
+                        <div class="number two">449</div>
+                    </div>
+                    <div class="cell" id="received">
+                        <div class="light">Received</div>
+                        <div class="number two">426</div>
+                    </div>
+                    <div class="cell" id="average">
+                        <div class="light">Average response time</div>
+                        <div class="number two">3h 8m</div>
+                    </div>
+                    <div class="cell" id="resolution">
+                        <div class="light">Resolution within SLA</div>
+                        <div class="number two">94%</div>
+                    </div>
+                </div>
             </div>
             <div class="bottom">
                 <div class="left">
-                    <div>Unresolved Tickets</div>
-                    <div>View details</div>
-                    <div>Group:Support</div>
-                    <div>Waiting on Feature Request</div>
-                    <div>Awaiting Customer Response</div>
-                    <div>Awaiting Developer Fix</div>
-                    <div>Pending</div>
+                    <div id="unresolved">Unresolved Tickets</div>
+                    <div id="details">View details</div>
+                    <div id="support">Group:Support</div>
+                    <div id="requests">Waiting on Feature Request</div>
+                    <div id="response">Awaiting Customer Response</div>
+                    <div id="fix">Awaiting Developer Fix</div>
+                    <div id="pending">Pending</div>
                 </div>
                 <div class="right">
-                    <div>Tasks</div>
-                    <div>View all</div>
-                    <div>Today</div>
-                    <div>Finish ticket update</div>
-                    <div>Update ticket report</div>
-                    <div>Close ticket report</div>
+                    <div id="tasks">Tasks</div>
+                    <div id="view">View all</div>
+                    <div id="today">Today</div>
+                    <div id="finish">Finish ticket update</div>
+                    <div id="update">Update ticket report</div>
+                    <div id="close">Close ticket report</div>
                 </div>
             </div>
         </div>
