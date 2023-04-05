@@ -8,26 +8,34 @@
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper" id="wrapper">
         <div class="sidebar">
             <div id="logo">Logoipsum</div>
             <div class="menu">
                 <ul class="list1">
+                    <img src="chart-arc.svg" alt="">
                     <li>Overview</li>
+                    <img src="ticket-account.svg" alt="">
                     <li>Tickets</li>
+                    <img src="lightbulb.svg" alt="">
                     <li>ideas</li>
+                    <img src="account-group.svg" alt="">
                     <li>Contacts</li>
+                    <img src="account-tie.svg" alt="">
                     <li>Agents</li>
+                    <img src="note-text-outline.svg" alt="">
                     <li>Articles</li>
                 </ul>
                 <ul class="list2">
+                    <img src="cog.svg" alt="">
                     <li>Settings</li>
+                    <img src="license.svg" alt="">
                     <li>Subscription</li>
                 </ul>
             </div>  
         </div>
         <div class="container">
-            <div class="header">
+            <div class="header" id="header">
                 <div id="overview">Overview</div>
                 <div id="search">Search</div>
                 <div id="notifications">Notifications</div>
@@ -35,8 +43,8 @@
                 <div id="user">User Name</div>
                 <div id="profile">Profile Pic</div>
             </div>
-            <div class="top">
-                <div class="card">
+            <div class="top" id="top">
+                <div class="card" id="card">
                     <div class="light">Open</div>
                     <div class="number">21</div> 
                 </div>
@@ -78,21 +86,58 @@
             </div>
             <div class="bottom">
                 <div class="left">
-                    <div id="unresolved">Unresolved Tickets</div>
-                    <div id="details">View details</div>
-                    <div id="support">Group:Support</div>
-                    <div id="requests">Waiting on Feature Request</div>
-                    <div id="response">Awaiting Customer Response</div>
-                    <div id="fix">Awaiting Developer Fix</div>
-                    <div id="pending">Pending</div>
+                    <div class="title-left">
+                        <div id="unresolved">Unresolved Tickets</div>
+                        <a href="#wrapper">View details</a>
+                    </div>
+                    <div class="sub-left">
+                        <div id="support">Group: Support</div>
+                    </div>
+                    <div class="group-left">
+                        <div id="requests">Waiting on Feature Request</div>
+                    </div>
+                    <div class="group-left">
+                        <div id="response">Awaiting Customer Response</div>
+                    </div>
+                    <div class="group-left">
+                        <div id="fix">Awaiting Developer Fix</div>
+                    </div>
+                    <div class="last-left">
+                        <div id="pending">Pending</div>
+                    </div>
                 </div>
                 <div class="right">
-                    <div id="tasks">Tasks</div>
-                    <div id="view">View all</div>
-                    <div id="today">Today</div>
-                    <div id="finish">Finish ticket update</div>
-                    <div id="update">Update ticket report</div>
-                    <div id="close">Close ticket report</div>
+                    <div class="title-right">
+                        <div id="tasks">Tasks</div>
+                        <a href="#wrapper">View all</a>
+                    </div>
+                    <div class="sub-right">    
+                        <div id="today">Today</div>
+                    </div>
+                    <div class="group-right">
+                        <div class="checkbox">
+                            <input type="checkbox" class="checkbox-round" id="checkbox">
+                        </div>
+                        <div id="finish">Finish ticket update</div>
+                    </div>
+                    <div class="group-right">
+                        <div class="checkbox">
+                            <input type="checkbox" class="checkbox-round" id="checkbox">
+                        </div>
+                        <div id="create">Create new ticket example</div>
+                    </div>
+                    <div class="group-right">
+                        <div class="checkbox">
+                            <input type="checkbox" class="checkbox-round" id="checkbox">
+                        </div>
+                        <div id="update">Update ticket report</div>
+                    </div>
+                    <div class="last-right">
+                        <div class="checkbox">
+                            <input type="checkbox" class="checkbox-round" id="checkbox">
+                        </div>
+                        <div id="close">Close ticket report</div>
+                    </div>
                 </div>
             </div>
         </div>
