@@ -10,26 +10,29 @@
 <body>
     <div class="wrapper" id="wrapper">
         <div class="sidebar">
-            <div id="logo">Logoipsum</div>
+            <div class="logo">
+                <img id="logo-img" src="logo.png" alt="logo">
+                <div id="logo">Logoipsum</div>
+            </div> 
             <div class="menu">
                 <ul class="list1">
-                    <img src="chart-arc.svg" alt="">
+                    <img src="chart-arc.svg" alt="graph-icon">
                     <li>Overview</li>
-                    <img src="ticket-account.svg" alt="">
+                    <img src="ticket-account.svg" alt="ticket-icon">
                     <li>Tickets</li>
-                    <img src="lightbulb.svg" alt="">
+                    <img src="lightbulb.svg" alt="lightbulb-icon">
                     <li>ideas</li>
-                    <img src="account-group.svg" alt="">
+                    <img src="account-group.svg" alt="group-icon">
                     <li>Contacts</li>
-                    <img src="account-tie.svg" alt="">
+                    <img src="account-tie.svg" alt="agent-icon">
                     <li>Agents</li>
-                    <img src="note-text-outline.svg" alt="">
+                    <img src="note-text-outline.svg" alt="article-icon">
                     <li>Articles</li>
                 </ul>
                 <ul class="list2">
-                    <img src="cog.svg" alt="">
+                    <img src="cog.svg" alt="cog-icon">
                     <li>Settings</li>
-                    <img src="license.svg" alt="">
+                    <img src="license.svg" alt="badge-icon">
                     <li>Subscription</li>
                 </ul>
             </div>  
@@ -37,11 +40,13 @@
         <div class="container">
             <div class="header" id="header">
                 <div id="overview">Overview</div>
-                <div id="search">Search</div>
-                <div id="notifications">Notifications</div>
-                <div id="|">|</div>
-                <div id="user">User Name</div>
-                <div id="profile">Profile Pic</div>
+                <div class="dashboard">
+                    <img id="mag" src="magnify.svg" alt="magnify-icon">
+                    <img id="img" src="bell.svg" alt="bell-icon">
+                    <div id="|" style="color:#a4a6b3; font-size: 25px; font-weight: 100; ">|</div>
+                    <div id="user" style="color:#252733; font-size: 14px; font-weight: bold;">Coty M.</div>
+                    <img id="profile" src="profile.jpg" alt="profile-icon">
+                </div>
             </div>
             <div class="top" id="top">
                 <div class="card" id="card">
@@ -63,6 +68,7 @@
             </div>
             <div class="middle"> 
                 <div class="trends">
+                    <div class="text">Today's trends</div>
                     <img class="graph" src="svg-chart (1).svg" alt="svg chart">
                 </div>
                 <div class="data">
@@ -91,19 +97,23 @@
                         <a href="#wrapper">View details</a>
                     </div>
                     <div class="sub-left">
-                        <div id="support">Group: Support</div>
+                        <div id="support">Group: <span style="color:#252733">Support</span></div>
                     </div>
                     <div class="group-left">
                         <div id="requests">Waiting on Feature Request</div>
+                        <div class="num-left">4238</div>
                     </div>
                     <div class="group-left">
                         <div id="response">Awaiting Customer Response</div>
+                        <div class="num-left">1005</div>
                     </div>
                     <div class="group-left">
                         <div id="fix">Awaiting Developer Fix</div>
+                        <div class="num-left">905</div>
                     </div>
                     <div class="last-left">
                         <div id="pending">Pending</div>
+                        <div class="num-left">281</div>
                     </div>
                 </div>
                 <div class="right">
@@ -119,24 +129,28 @@
                             <input type="checkbox" class="checkbox-round" id="checkbox">
                         </div>
                         <div id="finish">Finish ticket update</div>
+                        <div class="badge" style="background-color:#fec401; color:white">URGENT</div>
                     </div>
                     <div class="group-right">
                         <div class="checkbox">
                             <input type="checkbox" class="checkbox-round" id="checkbox">
                         </div>
                         <div id="create">Create new ticket example</div>
+                        <div class="badge" style="background-color:#29cc97; color:white">NEW</div>
                     </div>
                     <div class="group-right">
                         <div class="checkbox">
                             <input type="checkbox" class="checkbox-round" id="checkbox">
                         </div>
                         <div id="update">Update ticket report</div>
+                        <div class="badge" style="background-color:#f0f1f7; color:#9fa2b4">DEFAULT</div>
                     </div>
                     <div class="last-right">
                         <div class="checkbox">
                             <input type="checkbox" class="checkbox-round" id="checkbox">
                         </div>
                         <div id="close">Close ticket report</div>
+                        <div class="badge" style="background-color:#3751ff; color:white">ASSIGNED</div>
                     </div>
                 </div>
             </div>
